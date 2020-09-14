@@ -1,0 +1,13 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "akpl",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1000
+    }
+  },
+  "cordova": {}
+}
