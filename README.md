@@ -15,3 +15,7 @@
 |	+-- main.py
 +-- frontend: Ionic + React로 구현된 프론트엔드
 ```
+
+## 사진
+### 댓글 DB 구축 과정
+![build_db.py]("https://raw.githubusercontent.com/osori/korean-hate-comments/master/images/build_db.png")
