@@ -1,4 +1,5 @@
 # korean-hate-comments
+**지금 바로 사용해 보세요! [(링크)](http://akpl.xyz)**
 [Korean Hate Speech Dataset](https://github.com/kocohub/korean-hate-speech)을 이용해 구현한 악플 예측 모델 및 인터넷 커뮤니티의 악플 내려받기 서비스
 
 ## 디렉토리 구조 및 주요 파일 설명
