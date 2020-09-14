@@ -18,4 +18,8 @@
 
 ## 사진
 ### 댓글 DB 구축 과정
+#### build_db.py 구동
 ![build_db.py](images/build_db.png)
+
+#### 생성된 DB
+![DB 구조](images/db.png)
