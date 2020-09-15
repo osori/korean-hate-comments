@@ -23,7 +23,7 @@ const HateCommentsContainer: React.FC<ContainerProps> = ({  }) => {
   const [busy, setBusy] = useState<boolean>(false);
   const [showHateOnly, setShowHateOnly] = useState<boolean>(true);
   const [comments, setComments] = useState<Comment[]>([]);
-  const [keyword, setKeyword] = useState<string>("이효리");
+  const [keyword, setKeyword] = useState<string>("아이유");
 
   useIonViewWillEnter(() => {
     updateComments(keyword, showHateOnly); 
@@ -83,7 +83,7 @@ const HateCommentsContainer: React.FC<ContainerProps> = ({  }) => {
   return (
     <div>
         <IonItemDivider>아래에 검색할 키워드를 입력하세요</IonItemDivider>
-        <IonSearchbar placeholder="이효리" onIonChange={e => {updateComments(e.detail.value!, showHateOnly); setKeyword(e.detail.value!)}}></IonSearchbar>
+        <IonSearchbar placeholder="아이유" onIonChange={e => {updateComments(e.detail.value!, showHateOnly); setKeyword(e.detail.value!)}}></IonSearchbar>
         <IonItemDivider><IonItem>악플만 보기<IonToggle checked={showHateOnly} onIonChange={(e => {showHateOnlyChecked(e.detail.checked)})} color="danger" /></IonItem></IonItemDivider>
         <IonItemDivider><IonItem button onClick={() => exportComments()} >내보내기 (.xlsx)</IonItem></IonItemDivider>
         <IonList>

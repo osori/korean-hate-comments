@@ -10,7 +10,7 @@ import {
   IonTabs
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, triangle } from 'ionicons/icons';
+import { eye, search } from 'ionicons/icons';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
@@ -41,21 +41,16 @@ const App: React.FC = () => (
         <IonRouterOutlet>
           <Route path="/hatePredictService" component={Tab1} exact={true} />
           <Route path="/findCommentsService" component={Tab2} exact={true} />
-          <Route path="/tab3" component={Tab3} />
           <Route path="/" component={Tab1} exact={true} />
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
           <IonTabButton tab="tab1" href="/hatePredictService">
-            <IonIcon icon={triangle} />
+            <IonIcon icon={search} />
             <IonLabel>악플 검색</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/findCommentsService">
-            <IonIcon icon={ellipse} />
+            <IonIcon icon={eye} />
             <IonLabel>혐오 표현 검사</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon icon={square} />
-            <IonLabel>Tab 3</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
