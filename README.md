@@ -1,5 +1,7 @@
 # korean-hate-comments
-**지금 바로 사용해 보세요! [(링크)](http://akpl.xyz)**
+**국립국어원 2020 국어정보처리시스템 경진대회 금상 수상** ![(보고서)](images/선플수호자_보고서.pdf) ![(발표 자료)](images/선플수호자_발표자료.pdf) 
+
+~~**지금 바로 사용해 보세요! [(링크)](http://akpl.xyz)**~~ 예측 모델을 돌리는 서버의 비용 부담으로 인해 잠시 웹사이트를 닫았습니다. 아카이브 작업이 끝나는 대로 다시 열겠습니다.
 
 
 [Korean Hate Speech Dataset](https://github.com/kocohub/korean-hate-speech)을 이용해 구현한 악플 예측 모델 및 인터넷 커뮤니티의 악플 내려받기 서비스
